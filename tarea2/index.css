@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover {
+    
+    color: blue;
+}
+
+li, a {
+    text-decoration: none;
+    color: black;
+}
