@@ -65,6 +65,25 @@ function dataType(){
     console.log(typeof undefined);
 }
 
+function array(){
+    var array = ["Maria", "Ana" ,"Jose", "Pedro", "Juan"];
+    array.pop();
+    array.push("Luis");
+    console.log(array.indexOf("Ana"));
+}
+
+function mapSquaredMatrix(){
+    var array = [1,2,3,4,5];
+    var newArray = array.map(function(x){
+        return x * x;
+    });
+    console.log(newArray);
+}
+
+
+
+array();
+mapSquaredMatrix();
 dataType();
 verifyVocal("a");
 isString("hola", 2 , "como estas");
